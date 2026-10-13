@@ -15,3 +15,10 @@
 *.pdf -text
 *.tif filter=lfs diff=lfs merge=lfs -text
 Assets/TerrainDemoScene_URP/Terrain/Data/*.asset filter=lfs diff=lfs merge=lfs -text
+
+# Keep GitHub language statistics focused on authored gameplay code.
+"Assets/TextMesh Pro/**" linguist-vendored
+Assets/TerrainDemoScene_URP/** linguist-vendored
+"Assets/Lana Studio/**" linguist-vendored
+Assets/AllSkyFree/** linguist-vendored
+Assets/Inputs/DroneActions.cs linguist-generated
